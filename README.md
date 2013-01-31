@@ -1,8 +1,8 @@
-Notes andreflections on Code Complete, Second Edition
+Notes and reflections on Code Complete, Second Edition
 =====================================================
 
-# 3: Upstream prerequisites
-## 3.1 Importance of prerequisites
+## 3: Upstream prerequisites
+### 3.1 Importance of prerequisites
 1. Software can not overcome plan flaws (“Can’t design a Pontiac and get a Rolls Royce”).
 1. Quality at beginning (design), middle (construction) and end (testing) of process.
 1. Planning as a form of risk reduction: The most common risks are poor planning.
@@ -15,8 +15,8 @@ Notes andreflections on Code Complete, Second Edition
     * Coordination between developers (UI waiting for BE on so on)
     * Hard data (page 29): The cost of fixing an error grows (exponentilly?) over time.
 
-### My counter-arguments:
+#### My thoughts
 Huge open-source projects, most notably the Kernel, are not planned, at least not in the usual architect-designer-developer flow.
 
 
-## 3.2 Determine the kind of software You’re working on
+### 3.2 Determine the kind of software You’re working on
