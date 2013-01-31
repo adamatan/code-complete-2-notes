@@ -20,3 +20,4 @@ Huge open-source projects, most notably the Kernel, are not planned, at least no
 
 
 ### 3.2 Determine the kind of software You’re working on
+Quite obvious: an internet site and a pacemaker are developed and tested differently.
