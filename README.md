@@ -13,13 +13,17 @@ Notes and reflections on Code Complete, Second Edition
     * Simple logic - planning saves time, reduces risks, helps estimate costs
     * Analogy to non-software projects
     * Coordination between developers (UI waiting for BE on so on)
-    * Hard data (page 29): The cost of fixing an error grows (exponentilly?) over time.
+    * Hard data (page 29): The cost of fixing an error grows (exponentially?) over time.
 
 #### My thoughts
 Huge open-source projects, most notably the Kernel, are not planned, at least not in the usual architect-designer-developer flow.
 
 
-### 3.2 Determine the kind of software You’re working on
-The development approach is derived from the type of software used. An internet site is fault-tolerant and has frequent spec changes. 
-A pace maker changes 
+### 3.2 Determine the kind of software You’re working on (pp. 31)
+The development approach is derived from the type of software used. An internet site is fault-tolerant and has frequent spec changes. A pace maker can not tolerate faults, and its spec never changes. Therefore, an internet site should be developed iteratively, while a pacemaker should be developed sequentially.
+
 Combining iterative design with prerequisites is very effective.
+
+### My thoughts
+Prerequisites are interfaces: Between customer and code, and between code components.
+
