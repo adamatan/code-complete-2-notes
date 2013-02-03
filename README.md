@@ -27,5 +27,8 @@ Combining iterative design with prerequisites is very effective.
 #### My thoughts
 Prerequisites are interfaces: Between customer and code, and between code components.
 
-### 3.3 Problem-definition prerequisite
-1. A "clear statement of the *problem*" is the first step.
+### 3.3 Problem-definition prerequisite (pp. 36)
+A "clear statement of the *problem*" is the first step. It should not be stated in software terms (unless it's a software project like a compiler). Note that the problem can sometimes be solved without a software. Without a clear problem, the entire development process might be wasted on irrelevant issues.
+
+### 3.4 Requirements prerequisite (pp. 38)
+ 
