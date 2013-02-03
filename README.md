@@ -20,5 +20,6 @@ Huge open-source projects, most notably the Kernel, are not planned, at least no
 
 
 ### 3.2 Determine the kind of software You’re working on
-Obviously, an internet site and a pacemaker are developed differently.
+The development approach is derived from the type of software used. An internet site is fault-tolerant and has frequent spec changes. 
+A pace maker changes 
 Combining iterative design with prerequisites is very effective.
