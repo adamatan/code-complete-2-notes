@@ -31,8 +31,14 @@ Prerequisites are interfaces: Between customer and code, and between code compon
 A "clear statement of the *problem*" is the first step. It should not be stated in software terms (unless it's a software project like a compiler), but in the client's terms, e.g. *"We don't know where are all the company's vehicles during the day."*. Note that the problem can sometimes be solved without a software. Without a clear problem, the entire development process might be wasted on irrelevant issues.
 
 ### 3.4 Requirements prerequisite (pp. 38)
-The requirements are still phrased in the user, rather than the developer, language: *"The vehicles' location will be updated every 5 minutes."*
+The requirements are still phrased in the user, rather than the developer, language: *"The vehicles' location should be updated every 5 minutes."*
 
-The requirements are almost never frozen. Therefore, a change mechanism should be agreed on with the client before the development process begins.
+The requirements are seldom frozen. Therefore, a change mechanism should be agreed on with the client before the development process begins, with a clear price and time tags for each requested change.
+
+#### My thoughts
+The requirement checklist is the important part of the section.
+
+### 3.5 Architecture prerequisite (pp. 43)
+Architecture: "The high level part of software design."
 
 
