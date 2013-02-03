@@ -24,6 +24,8 @@ The development approach is derived from the type of software used. An internet 
 
 Combining iterative design with prerequisites is very effective.
 
-### My thoughts
+#### My thoughts
 Prerequisites are interfaces: Between customer and code, and between code components.
 
+### 3.3 Problem-definition prerequisite
+1. A "clear statement of the *problem*" is the first step.
