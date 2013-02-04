@@ -41,12 +41,12 @@ The requirement checklist is the important part of the section.
 ### 3.5 Architecture prerequisite (pp. 43)
 Architecture: "The high level part of software design."
 
-Typical parts (my opinion: ✔ always, ☹ depends, ✘ never)
+Typical parts (My opinion: ✔✔ YES!  ✔ yes, ☹ depends, ✘ never)
 
-1. ✔ Program organization, overview: That's what I need from an architect - a clear overview of interactions and expectations in the system.
+1. ✔✔ Program organization, overview: That's what I need from an architect - a clear overview of interactions and expectations in the system.
 1. ☹ Major classes: Never. That's over-designing. Give the developers interfaces, and let them construct implementations.
 1. ☹ Data design: major files and table designs: Only those used externally, either by end users or other components. And the later should be better decided by the developers themselves - they simply know the problem better.
-1. ✔ Business rules ("customer data should not be more than 30 seconds out of date"): Sure - I don't want to aim at wrong targets.
+1. ✔✔ Business rules ("customer data should not be more than 30 seconds out of date"): Sure - I don't want to aim at wrong targets.
 1. ☹ (Scarce) Resource management, such as DB connection, threads and handles: Only in cases where a shared where the resource is shared and truly scarce.
 1. ✔ Security
 1. ✔ Performance goals
@@ -56,4 +56,8 @@ Typical parts (my opinion: ✔ always, ☹ depends, ✘ never)
 1. ☹ Error processing and handling
 1. ✔ Fault tolerance
 1. ✔ Feasibility: The architect should convince the management (and the developers!) that the system construction is possible and reliable.
+1. ✔✔ Prevent Overengineering and Underengineering:Which parts are expected to face heavier load and must not fail? Which parts should "just work" without scale and performance consideration?
+1. ✔✔ Buy vs. Build vs. Reuse decisions
+1. ✔✔ Change strategy: Forecast change, design a change-tolerant system that can embrace expected changes without requiring overhauls.
+
 
