@@ -39,7 +39,7 @@ The requirements are seldom frozen. Therefore, a change mechanism should be agre
 The requirement checklist is the important part of the section.
 
 ### 3.5 Architecture prerequisite (pp. 43)
-Architecture: "The high level part of software design."
+Architecture: "The high level part of software design." This grand design should translate the business requirements into a software structure with coherent design and rationale, clear objectives, and flexible structure.
 
  > "When you look at the architecture, you should be pleased by how natural and easy the solution seems." (pp.52)
 
