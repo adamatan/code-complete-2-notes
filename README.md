@@ -41,6 +41,8 @@ The requirement checklist is the important part of the section.
 ### 3.5 Architecture prerequisite (pp. 43)
 Architecture: "The high level part of software design."
 
+ > "When you look at the architecture, you should be pleased by how natural and easy the solution seems." (pp.52)
+
 Typical parts (My opinion: ✔✔ YES!  ✔ yes, ☹ depends, ✘ never)
 
 1. ✔✔ Program organization, overview: That's what I need from an architect - a clear overview of interactions and expectations in the system.
