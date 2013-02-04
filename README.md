@@ -41,4 +41,17 @@ The requirement checklist is the important part of the section.
 ### 3.5 Architecture prerequisite (pp. 43)
 Architecture: "The high level part of software design."
 
+Typical parts (my opinion: ✔ always, ⍻ depends, ✘ never)
 
+1. ✔ Program organization, overview
+1. ✘ Major classes
+1. ⍻ Data design: major files and table designs
+1. Business rules ("customer data should not be more than 30 seconds out of date")
+1. (Scarce) Resource management, such as DB connection, threads and handles ✘
+1. Security
+1. Performance goals
+1. Scalability
+1. Internationalization
+1. I/O
+1. Error processing and handling
+1. Fault tolerance
