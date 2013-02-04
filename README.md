@@ -1,6 +1,8 @@
 Notes and reflections on Code Complete, Second Edition
 =====================================================
 
+# Part I: Laying the foundations
+
 ## 3: Upstream prerequisites
 ### 3.1 Importance of prerequisites
 1. Software can not overcome plan flaws (“Can’t design a Pontiac and get a Rolls Royce”).
@@ -61,5 +63,15 @@ Typical parts (My opinion: ✔✔ YES!  ✔ yes, ☹ depends, ✘ never)
 1. ✔✔ Prevent Overengineering and Underengineering:Which parts are expected to face heavier load and must not fail? Which parts should "just work" without scale and performance consideration?
 1. ✔✔ Buy vs. Build vs. Reuse decisions
 1. ✔✔ Change strategy: Forecast change, design a change-tolerant system that can embrace expected changes without requiring overhauls.
+
+The reasoning behind decisions should be clear, rather than "we've always done things that way". 
+
+
+### My thoughts
+* assisting the development effort
+* overdesigning
+* interfaces
+* discussion
+
 
 
