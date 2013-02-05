@@ -64,14 +64,18 @@ Typical parts (My opinion: ✔✔ YES!  ✔ yes, ☹ depends, ✘ never)
 1. ✔✔ Buy vs. Build vs. Reuse decisions
 1. ✔✔ Change strategy: Forecast change, design a change-tolerant system that can embrace expected changes without requiring overhauls.
 
-The reasoning behind decisions should be clear, rather than "we've always done things that way". 
+The reasoning behind decisions should be clear, rather than "we've always done things that way".
+
+> The architecture should tread the line between underspecifying and overspecifying.
 
 
 ### My thoughts
-* assisting the development effort
-* overdesigning
-* interfaces
-* discussion
+* The greatest caveat of underspecifying. Architecture should almost never go into implementation details. That being said, recommendations (e.g. *Look-ahead should be considered here because*) are most welcome - oftentimes the architect is a very experienced developer.
+* The architecture is a translation of business requirements to software components.
+* The architecture should assist the development effort by creating an coherent general design, defining a common language and splitting  work to comprehensible bytes. 
+* The architecture should be a *request for comment* paper for the developers, not a fixed final design.
+
+
 
 
 
