@@ -69,13 +69,18 @@ The reasoning behind decisions should be clear, rather than "we've always done t
 > The architecture should tread the line between underspecifying and overspecifying.
 
 
-### My thoughts
+#### My thoughts
 * The greatest caveat of underspecifying. Architecture should almost never go into implementation details. That being said, recommendations (e.g. *Look-ahead should be considered here because*) are most welcome - oftentimes the architect is a very experienced developer.
 * The architecture is a translation of business requirements to software components.
 * The architecture should assist the development effort by creating an coherent general design, defining a common language and splitting  work to comprehensible bytes. 
 * The architecture should be a *request for comment* paper for the developers, not a fixed final design.
 
+### 3.6 Amount of Time to Spend on Upstream Prerequisites
 
+> Generally, a well-run project devotes about 10-20 percent of its efforts and 20-30 percent of its schedule to requirements, architecture, and up-front planning.
+
+#### My thoughts
+Considering a typical two-week sprint with 10 work days, that sums up to 2-3 days for architecture (excluding design!). That's probably a little bit too much for a small project.
 
 
 
