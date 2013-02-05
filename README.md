@@ -100,7 +100,7 @@ A common convention reduces confusion and lets the mind focus on the actual prog
 
 #### My thoughts
 
-The conventions should focus on interfaces rather than nitpicking on variable names. It's really nice to have a project with, say, `getPixelName`, `getPixelAge` and `getPixelStatus` in one class, and `getPixelNameImpl`, `getPixelAgeImpl` and `getPixelStatusImpl` on another class, when each method was written by a different developer adhering to the same convention.
+The conventions should focus on interfaces rather than nitpicking on variable names. It's really nice to have a project with, say, `getPixelName`, `getPixelAge` and `getPixelStatus` in one class, and `getPixelNameImpl`, `getPixelAgeImpl` and `getPixelStatusImpl` on another class, all written by different developers adhering to the same convention.
 
 1. Should largely rely on the language specs (java CamelCaseClasses, Python's underscore_methods)
 1. Huge risk of overspecifying. 
