@@ -96,5 +96,17 @@ Criteria: Developer's familiarity with the language, Lean towards higher-level l
 
 ### 4.2 Programming Conventions (pp. 66)
 
+A common convention reduces confusion and lets the mind focus on the actual programming flow. It's important to define convention beforehand, because changing it afterwards is almost impossible.
+
+#### My thoughts
+
+The conventions should focus on interfaces rather than nitpicking on variable names. It's really nice to have a project with, say, `fe`
+
+1. Should largely rely on the language specs (java CamelCaseClasses, Python's underscore_methods)
+1. Huge risk of overspecifying. 
+
+
+
+
 
 
