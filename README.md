@@ -91,7 +91,7 @@ Considering a typical two-week sprint with 10 work days, that sums up to 2-3 day
 Criteria: Developer's familiarity with the language, Lean towards higher-level languages.
 
 #### My thoughts
-* Prefer a language that fits naturally to the job. For example, spending a day learning AWK for a large log-processing job might be a good idea, even if your natural language is C++ or Java. **Good developers fancy the opportunity to learn a new skill***.
+* Prefer a language that fits naturally to the job. For example, spending a day learning AWK for a large log-processing job might be a good idea, even if your natural language is C++ or Java. **Good developers fancy the opportunity to learn a new skill**.
 * Prefer a popular language for maintainability sake.
 
 ### 4.2 Programming Conventions (pp. 66)
@@ -100,7 +100,7 @@ A common convention reduces confusion and lets the mind focus on the actual prog
 
 #### My thoughts
 
-The conventions should focus on interfaces rather than nitpicking on variable names. It's really nice to have a project with, say, `fe`
+The conventions should focus on interfaces rather than nitpicking on variable names. It's really nice to have a project with, say, `getPixelName`, `getPixelAge` and `getPixelStatus` in one class, and `getPixelNameImpl`, `getPixelAgeImpl` and `getPixelStatusImpl` on another class, when each method was written by a different developer adhering to the same convention.
 
 1. Should largely rely on the language specs (java CamelCaseClasses, Python's underscore_methods)
 1. Huge risk of overspecifying. 
