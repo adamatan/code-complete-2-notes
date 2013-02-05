@@ -79,6 +79,8 @@ The reasoning behind decisions should be clear, rather than "we've always done t
 
 > Generally, a well-run project devotes about 10-20 percent of its efforts and 20-30 percent of its schedule to requirements, architecture, and up-front planning.
 
+For large projects, the architectural effort is a project by itself, and its schedule should be planned as well. 
+
 #### My thoughts
 Considering a typical two-week sprint with 10 work days, that sums up to 2-3 days for architecture (excluding design!). That's probably a little bit too much for a small project.
 
