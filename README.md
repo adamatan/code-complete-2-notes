@@ -75,7 +75,7 @@ The reasoning behind decisions should be clear, rather than "we've always done t
 * The architecture should assist the development effort by creating an coherent general design, defining a common language and splitting  work to comprehensible bytes. 
 * The architecture should be a *request for comment* paper for the developers, not a fixed final design.
 
-### 3.6 Amount of Time to Spend on Upstream Prerequisites
+### 3.6 Amount of Time to Spend on Upstream Prerequisites (pp. 55)
 
 > Generally, a well-run project devotes about 10-20 percent of its efforts and 20-30 percent of its schedule to requirements, architecture, and up-front planning.
 
@@ -83,6 +83,18 @@ For large projects, the architectural effort is a project by itself, and its sch
 
 #### My thoughts
 Considering a typical two-week sprint with 10 work days, that sums up to 2-3 days for architecture (excluding design!). That's probably a little bit too much for a small project.
+
+## 4: Key Construction Decisions
+
+### 4.1 Choosing Programming language (pp 61)
+
+Criteria: Developer's familiarity with the language, Lean towards higher-level languages.
+
+#### My thoughts
+* Prefer a language that fits naturally to the job. For example, spending a day learning AWK for a large log-processing job might be a good idea, even if your natural language is C++ or Java. **Good developers fancy the opportunity to learn a new skill***.
+* Prefer a popular language for maintainability sake.
+
+
 
 
 
