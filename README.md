@@ -86,7 +86,7 @@ Considering a typical two-week sprint with 10 work days, that sums up to 2-3 day
 
 ## 4: Key Construction Decisions
 
-### 4.1 Choosing Programming language (pp 61)
+### 4.1 Choosing Programming language (pp. 61)
 
 Criteria: Developer's familiarity with the language, Lean towards higher-level languages.
 
@@ -94,7 +94,7 @@ Criteria: Developer's familiarity with the language, Lean towards higher-level l
 * Prefer a language that fits naturally to the job. For example, spending a day learning AWK for a large log-processing job might be a good idea, even if your natural language is C++ or Java. **Good developers fancy the opportunity to learn a new skill***.
 * Prefer a popular language for maintainability sake.
 
-
+### 4.2 Programming Conventions (pp. 66)
 
 
 
